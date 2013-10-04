@@ -1,0 +1,43 @@
+#scratcher-box {
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.scratcher-bottom-margin {
+	margin-bottom: 20px;
+}
+
+.scratcher-margin-bottom {
+	font: sans-serif;
+	font-size: 0.8em;
+}
+
+#text-area {
+	margin: 15px 0;
+}
+
+#bottom-text-area {
+	margin: 15px 0;
+	font-size: 85%;
+}
+
+#Scratch_Holder {
+	position: relative;
+	width:289px;
+	height:289px;
+	background-image:url('../IMG/Lotto_Holder.gif');
+	margin:0 auto;
+}
+
+#scratcher-box canvas {
+	position: absolute;
+    top: 145px;
+    left: 7px;
+	cursor: crosshair;
+	cursor: url(../IMG/cursor.png) 15 15, crosshair;
+}
+
+#scratcher1Pct {
+	font: sans-serif;
+	font-size: 0.8em;
+}
